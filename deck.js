@@ -23,6 +23,12 @@ export default class Deck {
     get numberOfCards() {
         return this.cards.length
     }
+    pop() {
+        return this.cards.shift()
+    }
+    push(card) {
+        this.card.push(card)
+    }
 
     shuffle() {
         for (let i = this.numberOfCards - 1; i > 0; i--) {

@@ -5,12 +5,18 @@
 }
 
 body {
+
+    background-image: url('https://c1.wallpaperflare.com/preview/595/738/358/background-playing-cards-gambling.jpg');
+}
+
+.container {
     margin: 0;
     display: grid;
     grid-template-columns: repeat(2, 4rem);
     grid-template-rows: 7rem 2rem 7rem;
     gap: .5rem;
     cursor: pointer;
+    margin-top: 120px;
     justify-content: center;
     padding-top: 1rem;
 }
